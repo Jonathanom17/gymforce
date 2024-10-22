@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './page-planes.component.html',
   styleUrl: './page-planes.component.css'
 })
-export class PagePlanesComponent {
+export default class PagePlanesComponent {
 
 }

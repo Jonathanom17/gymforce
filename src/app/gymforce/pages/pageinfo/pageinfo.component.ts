@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './pageinfo.component.html',
   styleUrl: './pageinfo.component.css'
 })
-export class PageinfoComponent {
+export default class PageinfoComponent {
 
 }
