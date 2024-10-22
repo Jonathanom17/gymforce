@@ -1,0 +1,29 @@
+.icono{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.container-footer {
+   
+    width: 100vw;
+    height: 60vh;
+    
+   
+}
+
+.imagenes{
+    width: 98vw;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+#color-sgv {
+    color:white;
+}

@@ -1,3 +1,4 @@
+import { MenuItem } from './../../gymforce/interfaces/menu';
 import { Component } from '@angular/core';
 import { routes } from '../../app.routes';
 import { RouterModule } from '@angular/router';
@@ -10,7 +11,11 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  public  rutasMenu= routes
-  .map((route) => route.children ?? [])
-  .flat();
+   rutasMenu: MenuItem[]=[
+    {componente:'/home',title:'Inicio'},
+    {componente:'servicios',title:'Servicios'},
+    {componente:'planes',title:'Planes'}
+   ];
+   
+
 }

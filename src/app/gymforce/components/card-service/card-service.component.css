@@ -1,47 +1,11 @@
-.sobre-tech {
-    background-position: right;
-    background-repeat: repeat, no-repeat;
-    background-size: 100%, 110rem;
+.card-img{
+    width: 25rem;
+    min-width: 25rem;
+    height: 30rem;
 }
 
-.notavif.notwebp .sobre-tech {
-    background-image: linear-gradient( to bottom, transparent 50%, green 0% ), url(/img/gym-banner3.jpg);
-}
-
-
-.sobre-tech-grid {
-    display: grid;
-    grid-template-rows: repeat(2, 40rem);
-    row-gap: 5rem;
-}
-
-@media (min-width: 768px) { 
-    .sobre-tech-grid {
-        grid-template-rows: unset;
-        row-gap: unset;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 4rem;
-        padding: calc( 5rem * 2) 0;
-    }
-}
-
-.texto-sobre-tech {
-    grid-row: 2 / 3;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-bottom: 5rem;
-}
-@media (min-width: 768px) { 
-    .texto-sobre-tech {
-        padding-bottom: 0;
-    }
-}
-.texto-sobre-tech h2 {
-    font-size: 4rem;
-}
-.texto-sobre-tech p {
-    font-size: 2rem;
-    line-height: 2;
+container-img img{
+    width: 150px;
+    height: 150px;
+    max-height: 150px;
 }
