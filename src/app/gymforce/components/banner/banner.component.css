@@ -9,7 +9,7 @@
 
 
 .imagenes{
-    width: 98vw;
+    width: 100vw;
     height: 40vh;
     object-fit: cover;
     position: absolute;
@@ -17,6 +17,7 @@
     left: 0;
     z-index: -1;
     filter: brightness(0.6);
+    overflow: hidden;
 }
 
 

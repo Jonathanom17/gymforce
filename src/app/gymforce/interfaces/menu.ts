@@ -3,3 +3,10 @@ export interface MenuItem {
     title:string,
     
 }
+
+
+export interface SliderIMG{
+    url:string,
+      title: string,
+      description: string,
+}

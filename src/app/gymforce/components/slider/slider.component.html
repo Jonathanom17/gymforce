@@ -1,0 +1,29 @@
+<div class="slider">
+    <div>
+      <div (click)="goToPrevious()" class="leftArrow">❰</div>
+      <div (click)="goToNext()" class="rightArrow">❱</div>
+    </div>
+    
+  
+   
+            <img class="slide" [src]="getCurrentSlideUrl().url" alt="" width="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>{{getCurrentSlideUrl().title}}</h5>
+           
+          </div>
+          <div class="dotsContainer">
+            @for (item of slides; track $index) {
+                <div class="dot" (click)="goToSlide($index)">
+                    ●
+                </div>
+            }
+         
+        </div>
+   
+      
+   
+    
+  </div>
+  
+
+  
