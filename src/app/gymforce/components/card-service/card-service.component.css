@@ -1,11 +1,39 @@
+
+.contenedor{
+    background-color: transparent;
+    border-style: none;
+}
+
 .card-img{
     width: 25rem;
     min-width: 25rem;
     height: 30rem;
 }
 
-container-img img{
-    width: 150px;
-    height: 150px;
-    max-height: 150px;
+.container-img{
+    flex-basis: 50%;
 }
+
+
+
+.img-content {
+    border-radius: 0 0 5rem 0 ;
+    transition: all 300ms ease-in-out;
+}
+
+.conten-card:hover .img-content{
+    transform: scale(0.9);
+}
+
+.conten-card {
+    background-color: white;
+    border-radius: 0 0 5rem 0 !important;
+}
+
+.container-img{
+ 
+    transition: all 300ms ease-in-out;
+}
+
+
+.
